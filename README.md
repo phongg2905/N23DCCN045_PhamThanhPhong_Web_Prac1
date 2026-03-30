@@ -1,1 +1,3 @@
-# N23DCCN045_PhamThanhPhong_Web_Prac1
+MSSV: N23DCCN045
+Tên: Phạm Thanh Phong
+Lớp: D23CQCN01-N
