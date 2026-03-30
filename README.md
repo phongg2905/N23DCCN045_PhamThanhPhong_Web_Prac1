@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# N23DCCN045 - Phạm Thanh Phong
 
-## Getting Started
+## Thông tin sinh viên
+- **MSSV:** N23DCCN045
+- **Họ và tên:** Phạm Thanh Phong
 
-First, run the development server:
+## Mô tả bài làm
+Đây là dự án thực hành xây dựng giao diện bán hàng bằng **Next.js** và **Tailwind CSS**.
+
+Bài làm gồm các chức năng chính:
+- Xây dựng **Navbar** dùng chung cho giao diện
+- Tạo **Button component** có thể tái sử dụng
+- Tạo **ProductCard component** để hiển thị thông tin sản phẩm
+- Fetch dữ liệu sản phẩm từ **FakeStoreAPI**
+- Hiển thị danh sách sản phẩm theo dạng **responsive grid**
+- Xây dựng trang **Chi tiết sản phẩm** tại đường dẫn `app/product/[id]/page.js`
+- Điều hướng từ danh sách sản phẩm sang trang chi tiết
+
+## Công nghệ sử dụng
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **FakeStoreAPI**
+
+## Cách chạy dự án
+Cài đặt dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
